@@ -2,6 +2,7 @@ package io.github.realPadda.register.service;
 
 
 import io.github.realPadda.register.model.Adress;
+import io.github.realPadda.register.model.Phone;
 import io.github.realPadda.register.repo.AdressRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,8 +22,9 @@ public class AdressService {
         return adressRepo.save(adress);
     }
 
-    public List<Adress> findAllAdress(Adress adress){
-        return adressRepo.findAll();
 
+    public List<Adress> findAllAdress(){
+
+        return adressRepo.findAll();
     }
 }
