@@ -1,6 +1,7 @@
-package io.github.realPadda.register.model;
+package io.github.realPadda.register.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -9,8 +10,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 
+@Configuration
 @EnableWebSecurity
-@EnableAuthorizationServer
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
