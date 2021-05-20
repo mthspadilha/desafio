@@ -9,7 +9,7 @@ import { Client } from './cllient';
     providedIn: 'root'
 })
 
-export class CityService {
+export class ClientService {
     private apiServerUrl = environment.apiBaseUrl;
 
     constructor(private http: HttpClient){}
