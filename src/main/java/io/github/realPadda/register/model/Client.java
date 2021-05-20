@@ -12,6 +12,7 @@ public class Client {
     private Long idClient;
     @Column
     private String nameClient;
+    @Column(unique = true)
     private String cpfClient;
 
     //Foreign Keys

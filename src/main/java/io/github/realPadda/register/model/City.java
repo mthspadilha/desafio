@@ -12,6 +12,7 @@ public class City {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false)
     private Long Id;
+    @Column(unique = true)
     private String codIbge;
     @Column(length = 50, nullable = false, updatable = false)
     private String nomeCidade;
