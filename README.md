@@ -34,7 +34,6 @@ Deverá ser possível uma pessoa qualquer fazer o registro no sistema Deverá po
 - [ ] 0Auth 2.0
 - [ ] Exeception Erros
 - [X] Cors Configuration
-- [ ] Tests
 
 > **ps: I'm developing this api for a job aplication.** 💻
 
@@ -42,6 +41,4 @@ Deverá ser possível uma pessoa qualquer fazer o registro no sistema Deverá po
 - Angular
 - PostgreSQL
 - Bootstrap
-
-### Issues
-- Foreign keys
+- Maeve
